@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    
+    background-image:linear-gradient(to right,black,black);
+    
+}
+
+
+
+
+
+
+/* Arrow */
+
+.post{
+display: flex;
+justify-content: center;
+margin-top: 200px;
+
+
+}
+
+.post-upvotes{
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid red;
+    color:#e7da42;
+   background-color:#2e2a2a;
+   border-radius: 30px;
+  
+}
+
+.up{
+    
+    width: 50%;
+    margin-top: 20%;
+}
+
+
+.down{
+    margin-bottom: 20px;
+   
+}
+ .up:hover{
+     color:aqua;
+ }
+ .down:hover{
+  color:aqua;
+ }
+ 
+
