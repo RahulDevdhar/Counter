@@ -1,53 +1,26 @@
+
+    
 body{
-    margin: 0;
-    padding: 0;
-    font-family: verdana;
-    
-    background-image:linear-gradient(to right,black,black);
+    background-color: rgb(42, 37, 46);
     
 }
 
-
-
-
-
-
-/* Arrow */
-
-.post{
-display: flex;
-justify-content: center;
-margin-top: 200px;
-
-
-}
-
-.post-upvotes{
+.container{
     text-align: center;
-    font-size: 50px;
-    border: 2px solid red;
-    color:#e7da42;
-   background-color:#2e2a2a;
-   border-radius: 30px;
-  
 }
-
-.up{
-    
-    width: 50%;
-    margin-top: 20%;
+.title{
+    font-size: 66px;
+    color: greenyellow;
 }
-
-
-.down{
-    margin-bottom: 20px;
-   
+.counter{
+    font-size: 86px;
+    color: greenyellow;
 }
- .up:hover{
-     color:aqua;
- }
- .down:hover{
-  color:aqua;
- }
- 
-
+.btn{
+    background-color: brown;
+    color: beige;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 24px;
+}

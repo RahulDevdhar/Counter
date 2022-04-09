@@ -1,15 +1,15 @@
-function upvote()
-{
-    let votes = document.getElementById('votes');
-    let count = parseInt(votes.innerHTML); // "1000" -> 1000
-    count++; // 1000 -> 1001
-    votes.innerHTML = count;   
+let counter = 0;
+function count1() {
+    document.getElementById('counter').innerHTML = counter;
+    counter += 1;
 }
+function count2() {
 
-function downvote()
-{
-    let votes = document.getElementById('votes');
-    let count = parseInt(votes.innerHTML); // "1000" -> 1000
-    count--; // 1000 -> 999
-    votes.innerHTML = count;   
+    document.getElementById('counter').innerHTML = counter;
+    counter = 0;
+}
+function count() {
+
+    document.getElementById('counter').innerHTML = counter;
+    counter -= 1;
 }
